@@ -66,10 +66,11 @@ public class CardTrick {
             System.out.println("Your card is not found in the Magic Hand!");
         
         //Set Lucky Card Object - edit made on github
-        LuckyCard lc = new Card(); 
-
-            lc.setValue(3);
-            lc.setSuit(“Hearts);
+        Card luckyCard;
+        luckyCard = new Card();
+        
+        userCard.setValue(3);
+        userCard.setSuit("Hearts");
     }
     
 }
